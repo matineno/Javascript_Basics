@@ -18,3 +18,4 @@ Guildlines and best practices for JavaScript
 - If you are hard-coding alot of valuest or repeating data, you are probably 
   (95%) doing something wrong 
 - "More we know the language our tools, less we code." Andre Specht
+- Don't use obstrusive (aka inline) 

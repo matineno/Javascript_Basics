@@ -20,11 +20,37 @@ main {
 
 h2, p {
     color: #fff;
+    transition: all 3s ease-out;
 }
 
 p {
     margin-top: 10px;
     font-size: 18px;
-    cursor: purple;
-    
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+h2 {
+    /*display: none;    */
+    visibility: hidden;
+    opacity: 0;
+}
+
+h2.visible {
+    visibility: visible;
+    opacity: 1;
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px 0px;
+    width: 160px;
+    border-radius: 6px;
+    background-color: #007fff;
+    color: #fff;
+    font-weight: 600;
+}
+
+button.hover {
+    border: 1px solid #fff;
 }

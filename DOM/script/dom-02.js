@@ -9,5 +9,9 @@
     -querySelectorAll()
 */
 
-const section = document.getElementById('section');
-console,log(section);
+const sectionById = document.getElementById('section');
+
+// querySelector() allows us to target elements by their names, id's and 
+// classes. This method is more flexible that 'getElementById()'
+const sectionByClass = document.querySelection('section')
+console.log(section);

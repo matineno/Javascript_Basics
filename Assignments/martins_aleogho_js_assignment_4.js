@@ -65,15 +65,12 @@ function generateRandomLetter() {
   
   function generateRandomPassword() {
     let password = '';
-  
 
     for (let i = 0; i < 4; i++) {
       password += generateRandomLetter();
     }
-  
-
+    
     password += generateRandomCharacters();
-  
 
     for (let i = 0; i < 4; i++) {
       password += generateRandomNumber();
